@@ -1,5 +1,5 @@
 {% set name = "xarray-subset-grid" %}
-{% set version = "0.1.1" %}
+{% set version = "2026.10.18" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/xarray_subset_grid-{{ version }}.tar.gz
-  sha256: 983c24983ca230e5a8ad7f21bf669e8d51bc10a51045602ad37b1886a2baffb3
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/xarray_subset_grid-{{ version }}.tar.gz
+  sha256: 90246ccbad97b1c9952dfd889a225ad6b8f88bfe4b647ca2a9c4902dd40ac065
 
 build:
   noarch: python
